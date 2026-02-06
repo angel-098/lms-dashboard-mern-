@@ -85,14 +85,14 @@ All required **UI screenshots** and **API testing screenshots (Postman)** are av
 
 ### Backend
 
-cd server
-npm install
-node index.js
+- cd server
+- npm install
+- node index.js
 
 ---
 
 ### Frontend
 
-cd client
-npm install
-npm start
+- cd client
+- npm install
+- npm start
