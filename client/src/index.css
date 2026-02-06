@@ -298,6 +298,7 @@ button:hover {
     padding-bottom: 20px;
   }
 }
+
 /* VERTICAL COURSE FORM */
 .form-vertical {
   max-width: 500px;
@@ -321,4 +322,62 @@ button:hover {
 .form-vertical button {
   margin-top: 8px;
   width: fit-content;
+}
+
+/* ============================= */
+/* AUTH (LOGIN & REGISTER) FIX   */
+/* ============================= */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 13px 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.auth-card button {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
 }
